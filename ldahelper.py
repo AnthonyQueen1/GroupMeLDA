@@ -78,6 +78,7 @@ def find_topics(vocab, testlambda):
       # for printing results to console
       # print ('%20s  \t---\t  %.4f' % (vocab[temp[i][1]], temp[i][0]))
     topics.append(current_topic)
+  print('finished lda, returning topics')
   return topics
 
 
